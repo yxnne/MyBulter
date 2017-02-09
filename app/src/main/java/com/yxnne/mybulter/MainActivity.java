@@ -1,6 +1,7 @@
 package com.yxnne.mybulter;
 
 import android.content.Intent;
+
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -15,6 +16,8 @@ import com.yxnne.mybulter.fragment.ButlerFragment;
 import com.yxnne.mybulter.fragment.GrilFragment;
 import com.yxnne.mybulter.fragment.UserFragment;
 import com.yxnne.mybulter.fragment.WeChatFragment;
+import com.yxnne.mybulter.util.L;
+import com.yxnne.mybulter.util.SharedPrefUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -39,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         getSupportActionBar().setElevation(0);
         initData();
         initView();
+
     }
 
     /**
