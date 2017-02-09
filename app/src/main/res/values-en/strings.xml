@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MyBulter</string>
+    <string name="tag_main_1">Smart Butler</string>
+    <string name="tag_main_2">WeChat News</string>
+    <string name="tag_main_3">Many Grils</string>
+    <string name="tag_main_4">Profile</string>
 </resources>

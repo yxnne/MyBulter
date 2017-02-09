@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">喵呜小管</string>
+    <string name="tag_main_1">小助手</string>
+    <string name="tag_main_2">公众号</string>
+    <string name="tag_main_3">惹火图</string>
+    <string name="tag_main_4">我自己</string>
 </resources>
