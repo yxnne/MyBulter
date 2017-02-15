@@ -8,4 +8,10 @@ package com.yxnne.mybulter.util;
  * Descriptions     : 数据和常量
  */
 public class StaticClass {
+    //闪屏页延时的msg.what
+    public static final int HANDLER_SPLASH = 1001;
+
+
+    //sharedPreference的字段
+    public static final String FIRST_RUN_APP = "frist_run_app";
 }
