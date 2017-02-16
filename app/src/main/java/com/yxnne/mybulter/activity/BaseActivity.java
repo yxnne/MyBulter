@@ -20,6 +20,7 @@ public class BaseActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //显示返回键，Actionbar的
+        getSupportActionBar().setElevation(0);//去掉actionbar的阴影
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 

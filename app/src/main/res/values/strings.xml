@@ -4,6 +4,9 @@
     <string name="tag_main_2">WeChat News</string>
     <string name="tag_main_3">Many Grils</string>
     <string name="tag_main_4">Profile</string>
+    <string name="empty_description">This man is Lasy</string>
+    <string name="text_registere_successful">Register Successful</string>
+    <string name="text_registere_failure">Falied</string>
 
 
 </resources>

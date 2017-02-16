@@ -31,5 +31,14 @@
             android:layout_height="10dp" />
 
     </LinearLayout>
+    <TextView
+        android:id="@+id/tv_skip_guide_guide"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"/>
 
 </RelativeLayout>

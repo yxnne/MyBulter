@@ -11,6 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.tencent.bugly.crashreport.CrashReport;
 import com.yxnne.mybulter.activity.SettingActivity;
 import com.yxnne.mybulter.fragment.ButlerFragment;
 import com.yxnne.mybulter.fragment.GrilFragment;
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         getSupportActionBar().setElevation(0);
         initData();
         initView();
+        //CrashReport.testJavaCrash();
 
     }
 
